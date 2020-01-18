@@ -1,0 +1,7 @@
+{
+  "name": "airplayer",
+  "version": "0.0.1",
+  "description": "airplay receiver built with electron",
+  "main": "index.js",
+  "license": "MIT"
+}
