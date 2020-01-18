@@ -5,7 +5,7 @@ module.exports.makeShairport = () => {
   fixPath() // for MacOS in order to access PATH
   const shairportSyncProcess = spawn(
     'shairport-sync',
-    ['-o', 'ao', '-a', 'ss-play'],
+    ['-o', 'ao', '-a', 'airplayer'],
     {
       stdio: 'inherit',
     },
