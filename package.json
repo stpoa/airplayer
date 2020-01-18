@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "build": "mkdir build && electron-packager . AirPlayer --platform=darwin --arch=x64 --out=build",
-    "build-win": "mkdir build && electron-packager . AirPlayer --platform=win32 --arch=x64 --out=build"
+    "build": "mkdir build; electron-packager . AirPlayer --platform=darwin --arch=x64 --out=build",
+    "build-win": "mkdir build; electron-packager . AirPlayer --platform=win32 --arch=x64 --out=build"
   },
   "dependencies": {
     "fix-path": "^2.1.0"

@@ -12,6 +12,9 @@ module.exports.makeShairport = () => {
   )
 
   return {
-    stop: () => shairportSyncProcess.kill(),
+    stop: () => {
+      shairportSyncProcess.kill()
+      spawn('killall', ['shairport-sync'])
+    },
   }
 }
