@@ -2,6 +2,13 @@
   "name": "airplayer",
   "version": "0.0.1",
   "description": "airplay receiver built with electron",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^7.1.9"
+  }
 }
